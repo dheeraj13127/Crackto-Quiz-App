@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+  font-family: 'Bree Serif', serif;
+  background-color: black;
+}
+.dashboardContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/dashboard1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125vh;
+  border-radius: 15px;
+}
+.dashHeader{
+  color: white;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {color: white;}
+  50%{color: #FFD700 ;}
+  100% {color: white;}
+}
+.dashboardCard{
+  margin-top: 25px;
+background: rgba( 255, 255, 255, 0.20 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 30vh;
+}
+.dashboardCardGlass{
+  margin-top: 8px;
+  height: 19vh;
+
+background: rgba( 0, 0, 0, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.dashboardCardThunderFont{
+  color: white;
+  animation-name: example1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example1 {
+  0%   {color: white;}
+  20%{color: #FFD700 ;}
+  40% {color: white;}
+  60%{color: #FFD700 ;}
+  80% {color: white;}
+  100%{color: #FFD700 ;}
+}
+.level1CricContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/level1cric.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level1CricHeader{
+  color: white;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+}
+@keyframes example2 {
+  0%   {color: white;}
+  20%{color: #FFD700 ;}
+  40% {color: white;}
+  60%{color: #FFD700 ;}
+  80% {color: white;}
+  100%{color: #FFD700 ;}
+}
+.level1CricCard{
+margin-top: 40px;
+
+background: rgba( 0, 0, 0, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 85vh;
+}
+.level1CricCardGlass{
+  margin-top: 8px;
+  height: 72vh;
+
+background: rgba( 0, 0, 0, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.level1CricCardGlass1{
+  margin-top: 8px;
+  height: 20vh;
+  
+background: rgba( 0, 0, 0, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.level1Option:focus{
+background-color: #FFD700;
+}
+.level1CricHead{
+  color: #FFD700;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+  border-radius: 10px;
+}
+.level1CricResultContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/level1res.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  border-radius: 15px;
+}
+.level1CricResultContainerCard{
+  margin-top: 25px;
+
+background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 80vh;
+}
+.level1CricResultScore{
+  color: white;
+  animation-name: example4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+  border-radius: 10px;
+}
+@keyframes example4 {
+  0%   {color: white;}
+  20%{color: #FFD700 ;}
+  40% {color: white;}
+  60%{color: #FFD700 ;}
+  80% {color: white;}
+  100%{color: #FFD700 ;}
+}
+.level1SadEmoji{
+  font-size: 60px;
+  color: #FFD700;
+}
+.level1HappyEmoji{
+  font-size: 60px;
+  color: #FFD700;
+}
+.level1Option:hover{
+  background-color: #ffd900e1;
+  transition: 1s linear;
+}
+.level1AvengersContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/aven1.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level1PoliticsContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/poli.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level2SportsContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/cricandbad.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level2MoviesContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/justice\'.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level2TechContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/ethereum.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level3SportsContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/crik.jpg.crdownload'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level3MoviesContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/avengers.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.level3TechContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('./media/tech.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  border-radius: 15px;
+}
+.helpContainer{
+  background: rgba( 255, 255, 255, 0.80 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.0px );
+-webkit-backdrop-filter: blur( 7.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 165vh;
+color: black;
+margin-bottom: 10px;
+}
+.helpHeader{
+  color: black;
+  animation-name: example5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example5 {
+  0%   {color: black;}
+  20%{color: indigo ;}
+  40% {color: black;}
+  60%{color: indigo ;}
+  80% {color: black;}
+  100%{color: indigo ;}
+}
+.aboutContainer{
+  background: rgba( 255, 255, 255, 0.80 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.0px );
+-webkit-backdrop-filter: blur( 7.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 33vh;
+color: black;
+margin-bottom: 10px;
+margin-top: 50px;
+}
+.page-footer{
+  background: rgba( 255, 255, 255, 0.80 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.0px );
+  -webkit-backdrop-filter: blur( 7.0px );
+  color: black;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.loginContainer{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-image: url('./media/back.jpg'),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  border-radius: 15px;
+}
+.loginCard{
+  margin-top: 20px;
+  background: rgba( 0, 0, 0, 0.85 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+height:80vh;
+}
+.registerUserContainer{
+  background: rgba( 249, 247, 247, 0.40 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 20px;
+height: 90vh;
+}
+.loginUserContainer{
+  background: rgba( 249, 247, 247, 0.40 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: 90px;
+  height: 60vh;
+}
+.finalContainer{
+  background: rgba( 249, 247, 247, 0.40 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: 50px;
+  height: 60vh;
+}
+.finalHeader{
+  color: white;
+  animation-name: example7;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example7 {
+  0% {color: white;}
+  20%{color: #FFD700 ;}
+  40% {color: white;font-size: 25px;}
+  60%{color: #FFD700 ;}
+  80% {color: white;}
+  100%{color: #FFD700 ;}
+}
+.finalContainer::after{
+  content: '';
+  height: 5px;
+  width: 10px;
+  background-color: chartreuse;
+}
+
