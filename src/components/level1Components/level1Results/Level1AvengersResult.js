@@ -26,10 +26,14 @@ function Level1AvengersResult() {
     localStorage.setItem("cracksClaimed",true)
   }
   const retryLevel=()=>{
+    localStorage.setItem("level1Score",0)
+    setScore(0)
     history.push('/level1/2')
   }
   const proceedToChapter2=()=>{
     if(cracksClaimed=="true"){
+      localStorage.setItem("level1Score",0)
+      setScore(0)
       localStorage.setItem('LevelInc',3)
       localStorage.setItem("cracksClaimed",false)
       history.push('/dashboard')

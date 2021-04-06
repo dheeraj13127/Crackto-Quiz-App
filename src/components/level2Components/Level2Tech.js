@@ -12,8 +12,8 @@ function Level2Tech() {
   const M=window.M
   
   let history=useHistory()
-  const {score,setScore}=useContext(QuizContext)
-  
+ 
+  const [score,setScore]=useState(0)
   const [currQues,setCurrQues]=useState(0)
   const [optionChosen,setOptionChosen]=useState("")
   const [finish,setFinish]=useState(false)

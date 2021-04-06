@@ -25,10 +25,14 @@ function Level2TechResult() {
     localStorage.setItem("cracksClaimed",true)
   }
   const retryLevel=()=>{
+    localStorage.setItem("level1Score",0)
+    setScore(0)
     history.push('/level2/3')
   }
   const proceedToChapter2=()=>{
     if(cracksClaimed=="true"){
+      localStorage.setItem("level1Score",0)
+      setScore(0)
       localStorage.setItem('Level2Inc',4)
       localStorage.setItem("cracksClaimed",false)
       history.push('/dashboard')

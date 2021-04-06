@@ -26,10 +26,14 @@ function Level2MoviesResult() {
     localStorage.setItem("cracksClaimed",true)
   }
   const retryLevel=()=>{
+    localStorage.setItem("level1Score",0)
+    setScore(0)
     history.push('/level2/2')
   }
   const proceedToChapter2=()=>{
     if(cracksClaimed=="true"){
+      localStorage.setItem("level1Score",0)
+    setScore(0)
       localStorage.setItem('Level2Inc',3)
       localStorage.setItem("cracksClaimed",false)
       history.push('/dashboard')
